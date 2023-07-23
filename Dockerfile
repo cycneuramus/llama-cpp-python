@@ -11,6 +11,7 @@ RUN python -m pip install --no-cache-dir --upgrade \
 	cmake \
 	fastapi \
 	pip \
+	pydantic-settings \
 	pytest \
 	scikit-build \
 	setuptools \
