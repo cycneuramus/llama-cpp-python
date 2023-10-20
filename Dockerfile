@@ -16,6 +16,7 @@ RUN python -m pip install --no-cache-dir --upgrade \
 	scikit-build \
 	setuptools \
 	sse-starlette \
+	starlette-context \
 	uvicorn
 
 RUN CMAKE_ARGS="-DLLAMA_CLBLAST=on" \
